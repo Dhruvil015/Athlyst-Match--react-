@@ -12,10 +12,7 @@ Link - https://athlyst-match.netlify.app/
 ### start locally 
 To start locally perform following commands in the new terminal
 
-- First move to the directory that you clone by following command.
-```
-cd client
-```
+- First move to the directory that you have clone.
 - Now install all the dependencies. This will create node_modules folder in directory.
 ```
 npm install
