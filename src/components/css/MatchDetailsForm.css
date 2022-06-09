@@ -1,0 +1,24 @@
+.allFieldsContainer {
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.leftFieldsContainer,
+.rightFieldsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media (max-width: 870px) {
+  .allFieldsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

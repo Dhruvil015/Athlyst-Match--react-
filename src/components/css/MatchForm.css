@@ -1,0 +1,13 @@
+.matchTypeContainer {
+  width: 244px;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+@media (max-width: 840px) {
+  .matchTypeContainer {
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
